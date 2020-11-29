@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>StringShop</title>
+    <meta name="description" content="Music expresses feeling and thought, without language; it was below and before speech, and it is above and beyond all words. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="logo2.png">
+    <link rel="stylesheet" href="../src/assets/css/main.css">
+  </head>
+  <body>
+
+    <div class="topnav">
+      <a class="active" href="C:\Users\Michael Intel\Desktop\FinalJS\Final\public\index.html">Home</a>
+      <a href="#about">About us</a>
+      <a href="#contact">Contacts</a>
+      <div class="login-container">
+        <form action="/action_page.php">
+          
+          <input type="text" placeholder="name" name="username">
+          <input type="text" placeholder="password" name="psw">
+          <button type="submit">username</button>
+          
+        </form>
+      </div>
+    </div> 
+    
+    <div id="myDIV" class="header">
+      <h1>StringStore</h1>
+      <h2><img src="logo2.png" style="width: 30%"></h2>
+      <h3>“Music expresses feeling and thought, without language; it was below and before speech, and it is above and beyond all words.”</h3>
+      
+    </div>
+
+    <div class="slideshow-container">
+     
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="img1.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="img2.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="img3.jpg" style="width:100%">
+        <div class="text"></div>
+      </div>
+    
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')">Show all</button>
+  <button class="btn" onclick="filterSelection('nature')"> Accustic</button>
+  <button class="btn" onclick="filterSelection('cars')"> Electro</button>
+  <button class="btn" onclick="filterSelection('people')">Bass</button>
+</div>
+
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="Guitars/accustic1.jpg" alt="Горы" style="width:100%">
+      <h4>700 $</h4>
+      <p>Veston 2000</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Guitars/accustic2.jpg" alt="Северное сияние" style="width:100%">
+      <h4>1200 $ </h4>
+      <p>Fender Black</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Guitars/accustic3.jpeg" alt="Природа" style="width:100%">
+      <h4>1300 $</h4>
+      <p>Fender Oak</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Guitars/accustic4.jpg" alt="Природа" style="width:100%">
+      <h4>1400$</h4>
+      <p>Fender 7 lima</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Guitars/accustic5.jpg" alt="Природа" style="width:100%">
+      <h4>1000 $</h4>
+      <p>Fender Old tales</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="Guitars/accustic6.jpg" alt="Природа" style="width:100%">
+      <h4>800$</h4>
+      <p>Luxus 2100$</p>
+    </div>
+  </div>
+
+
+  <div class="column cars">
+    <div class="content">
+      <img src="Guitars/electro.jpg" alt="Машина" style="width:100%">
+      <h4>2300 $</h4>
+      <p>Sunrize Mustang</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="Guitars/electro1.jpg" alt="Машина" style="width:100%">
+      <h4>1800 $</h4>
+      <p>Sunrize revolution</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="Guitars/electro2.jpg" alt="Машина" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Grim Black</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="Guitars/electro3.jpg" alt="Машина" style="width:100%">
+      <h4>2500 $</h4>
+      <p>Ibanez Gio</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="Guitars/electro4.jpg" alt="Машина" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Epipone</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="Guitars/electro5.jpg" alt="Машина" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Gio Ibanez</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="Guitars/bass1.jpg" alt="Люди" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Sunrize rev.Bass</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="Guitars/bass2.jpg" alt="Люди" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Sunrize Bass</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="Guitars/bass3.jpg" alt="Люди" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Ibanez</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="Guitars/bass4.png" alt="Люди" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Sunrize Mustang bass</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="Guitars/bass5.jpg" alt="Люди" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Gibson</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="Guitars/bass6.jpg" alt="Люди" style="width:100%">
+      <h4>1700 $</h4>
+      <p>Jackson</p>
+    </div>
+  </div>
+</div> 
+
+
+
+
+
+    <form action="action_page.php" style="border:1px solid #ccc">
+      <div class="container">
+        <h1>Regestration form</h1>
+        <p>Please, fill all the tabs to create a profile.</p>
+        <hr>
+    
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Введите вашу почту" name="email" required>
+    
+        <label for="psw"><b>password</b></label>
+        <input type="password" placeholder="Введите пароль" name="psw" required>
+    
+        <label for="psw-repeat"><b>retry password</b></label>
+        <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+    
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> remember me
+        </label>
+    
+        <p>Creating a profile, you are agreeing to the terms of servise <a href="#" style="color:dodgerblue">Conf. Info</a>.</p>
+    
+        <div class="clearfix">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Reg.</button>
+        </div>
+      </div>
+    </form> 
+
+    <script src="../src/index.js" async defer></script>
+  </body>
+</html>
